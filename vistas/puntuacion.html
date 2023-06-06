@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel o tijera | Álvaro Pereira Merodio</title>
+    <link rel="stylesheet" href="../css/puntuacion.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-title">
+            <h1>Piedra | Papel | Tijera</h1>
+        </div>
+        <div class="enlaces-flex">
+            <div class="enlaces">
+                <a href="./juego.html" class="botones-main">Volver</a>
+            </div>
+        </div>
+        <div class="puntuacion-content">
+            <div class="puntuacion">
+                <h1 class="title-border">IA</h1>
+                <br>
+                <p id="iaPuntuacion">0</p>
+            </div>
+            <div class="puntuacion">
+                <h1 class="title-border">Jugador</h1>
+                <br>
+                <p id="jugadorPuntuacion">0</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Obtener la puntuación guardada en LocalStorage
+        const puntuacionIA = localStorage.getItem('puntuacionIA');
+        const puntuacionJugador = localStorage.getItem('puntuacionJugador');
+      
+        // Actualizar los elementos HTML con la puntuación obtenida
+        document.getElementById('iaPuntuacion').innerText = puntuacionIA || '0';
+        document.getElementById('jugadorPuntuacion').innerText = puntuacionJugador || '0';
+      </script>
+    <script src="../js/juego.js"></script>
+</body>
+
+</html>

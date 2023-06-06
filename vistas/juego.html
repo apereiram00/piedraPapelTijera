@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel o tijera | Álvaro Pereira Merodio</title>
+    <link rel="stylesheet" href="../css/juego.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-title">
+            <h1>Piedra | Papel | Tijera</h1>
+        </div>
+        <div class="enlaces-flex">
+            <div class="enlaces">
+                <a href="#" class="botones-main">Puntuación</a>
+                <a href="../index.html" class="botones-main">Volver</a>
+            </div>
+        </div>
+        <div class="juego-estado">
+            <div class="juego-content">
+                <div class="botones-flex">
+                    <div class="juego-title">
+                        <h1>IA</h1>
+                    </div>
+                    <div class="botones-juego-IA">
+                        <button type="button" class="boton-IA">Piedra</button>
+                        <button type="button" class="boton-IA">Papel</button>
+                        <button type="button" class="boton-IA">Tijera</button>
+                    </div>
+                    <div class="contador">
+                        <p></p>
+                    </div>
+                    <div class="juego-title2">
+                        <h1>Jugador</h1>
+                    </div>
+                    <div class="botones-juego-jugador">
+                        <button type="button" class="boton-jugador">Piedra</button>
+                        <button type="button" class="boton-jugador">Papel</button>
+                        <button type="button" class="boton-jugador">Tijera</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="puntuacion-content">
+            <div class="puntuacion">
+                <h1 class="title-border">IA</h1>
+                <br>
+                <p id="iaPuntuacion">0</p>
+            </div>
+            <div class="puntuacion">
+                <h1 class="title-border">Jugador</h1>
+                <br>
+                <p id="jugadorPuntuacion">0</p>
+            </div>
+        </div>
+        <script src="../js/juego.js"></script>
+    </div>
+</body>
+
+</html>

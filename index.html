@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel o tijera | Álvaro Pereira Merodio</title>
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-title">
+            <h1>Piedra | Papel | Tijera</h1>
+        </div>
+        <div class="enlaces-flex">
+            <div class="enlaces">
+                <a href="./vistas/juego.html" class="botones-main">Jugar</a>
+                <a href="#" class="botones-main">Reglas</a>
+            </div>
+        </div>
+        <div class="reglas-content">
+            <div class="enlace-cerrar">
+                <a href="#" class="enlance-especial">Cerrar</a>
+            </div>
+            <h1>Reglas</h1>
+            <p>El jugador elige entre:</p>
+            <ul>
+                <li>Piedra</li>
+                <li>Papel</li>
+                <li>Tijera</li>
+            </ul>
+            <p>Una vez haya elegido una de las opciones, habrá un contador de 3 segundos para esperar la respuesta de la
+                IA. Según la respuesta de cada jugador, se sumará 1 punto al ganador de la ronda</p>
+            <h3>¿Qué valor tienen las tiradas?</h3>
+            <ul>
+                <li>La piedra aplasta la tijera. (Gana la piedra)</li>
+                <li>La tijera corta el papel. (Gana la tijera)</li>
+                <li>El papel envuelve la piedra. (Gana el papel)</li>
+                <li>En caso de empate (que el jugador y la IA elijan el mismo elemento), no se suma ningún punto.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/mostrarAyuda.js"></script>
+</body>
+
+</html>

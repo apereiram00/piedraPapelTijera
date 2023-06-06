@@ -1,0 +1,85 @@
+/* Autor: Álvaro Pereira
+ Fecha: 05-06-2023
+ Nombre: index.css
+ Descripción: Hoja de estilos para el index.html 
+ */
+
+body {
+    background-color: #AFF9B2;
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 0 auto;
+    color: rgb(46, 46, 46);
+}
+
+.content-title {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 2.25px solid black;
+}
+
+.content-title h1, .reglas-content h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.enlaces {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    max-width: 600px;
+}
+
+.enlaces-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-main, .enlance-especial {
+    text-decoration: none;
+    font-size: 19.5px;
+    background: rgb(61, 122, 172);
+    border: 2px solid black;
+    padding: 17px;
+    color: white;
+    letter-spacing: 1.25px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.botones-main:hover {
+    transform: scale(1.15);
+}
+
+.reglas-content {
+    border: 2.50px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 135px;
+    padding: 20px;
+    max-width: 700px;
+    background-color: #ffc8e8;
+    display: none;
+}
+
+.enlance-especial {
+    background: rgb(233, 191, 144);
+    padding: 5px;
+}
+
+.enlance-especial:hover {
+    transform: scale(1.10);
+}
+
+.enlace-cerrar{
+    display: flex;
+    max-width: 600px;
+}

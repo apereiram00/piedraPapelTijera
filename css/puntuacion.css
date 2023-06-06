@@ -1,0 +1,88 @@
+/* Autor: Álvaro Pereira
+ Fecha: 05-06-2023
+ Nombre: puntuacion.css
+ Descripción: || DESHABILITADO || */
+body {
+    background-color: #AFF9B2;
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 0 auto;
+    color: rgb(46, 46, 46);
+}
+
+.content-title {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 2.25px solid black;
+}
+
+.content-title h1,
+.reglas-content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.enlaces {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    max-width: 600px;
+}
+
+.enlaces-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-main,
+.enlance-especial {
+    text-decoration: none;
+    font-size: 19.5px;
+    background: rgb(61, 122, 172);
+    border: 2px solid black;
+    padding: 17px;
+    color: white;
+    letter-spacing: 1.25px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.botones-main:hover {
+    transform: scale(1.15);
+}
+
+.puntuacion-content {
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 33px;
+    border: 2px solid black;
+    background-color: rgb(243, 235, 167);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.puntuacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.puntuacion p {
+    font-size: 22px;
+}
+
+.title-border {
+    border-bottom: 2.25px solid black;
+}

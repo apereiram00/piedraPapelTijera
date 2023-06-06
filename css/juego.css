@@ -1,0 +1,159 @@
+/* Autor: Álvaro Pereira
+ Fecha: 05-06-2023
+ Nombre: juego.css
+ Descripción: Hoja de estilos para el juego.html 
+ */
+
+body {
+    background-color: #AFF9B2;
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 0 auto;
+    color: rgb(46, 46, 46);
+}
+
+.content-title {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 2.25px solid black;
+}
+
+.content-title h1,
+.reglas-content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.enlaces {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    max-width: 600px;
+}
+
+.enlaces-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-main,
+.enlance-especial {
+    text-decoration: none;
+    font-size: 19.5px;
+    background: rgb(61, 122, 172);
+    border: 2px solid black;
+    padding: 17px;
+    color: white;
+    letter-spacing: 1.25px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.botones-main:hover {
+    transform: scale(1.15);
+}
+
+.boton-IA,
+.boton-jugador {
+    font-size: 19.5px;
+    background: rgb(235, 99, 129);
+    padding: 17px;
+    color: white;
+    letter-spacing: 1.25px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.boton-IA {
+    pointer-events: none;
+}
+
+.juego-content {
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 33px;
+    border: 2px solid black;
+    background-color: darkgray;
+}
+
+.botones-flex h1 {
+    text-align: center;
+    border-bottom: 2.25px solid black;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.botones-flex {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 55px;
+}
+
+.boton-jugador {
+    background: rgb(233, 191, 144);
+}
+
+.boton-seleccionado {
+    transform: scale(1.25);
+}
+
+.boton-jugador:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.botones-juego-IA,
+.botones-juego-jugador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.juego-title2 {
+    margin-top: 70px;
+}
+
+.contador {
+    margin-top: 50px;
+}
+
+.contador p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.puntuacion-content {
+    display: none;
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 33px;
+    border: 2px solid black;
+    background-color: rgb(243, 235, 167);
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.puntuacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.puntuacion p {
+    font-size: 22px;
+}
