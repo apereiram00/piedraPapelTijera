@@ -1,2 +1,2 @@
 # piedraPapelTijera
-piedraPapelTijera con js html y css
+piedraPapelTijera con js html y css | Álvaro Pereira
